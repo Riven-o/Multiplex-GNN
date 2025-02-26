@@ -1,0 +1,21 @@
+combine_type: attn_no_weight
+dropout: 0.5
+epochs: 2000
+file_option: _miss_graph_miss_label
+fuse_method: GCN
+fuse_on: node_embed
+hid_dim: 64
+knn_on: graph_embed
+lr: 0.001
+model_name: MHGCNFuseGraph
+nlayers: 3
+patience: 5
+reduce: mean
+shared: false
+split_args:
+    test_size: 0.2
+    train_size: 0.6
+    valid_size: 0.2
+supp_k: 8
+use_wandb: true
+wd: 0.01

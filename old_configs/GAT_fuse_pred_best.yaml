@@ -1,0 +1,18 @@
+dropout: 0.5
+epochs: 2000
+hid_dim: 64
+lr: 0.01
+model_name: GAT_fuse_pred
+nlayers: 1
+patience: 5
+ratio: 0.2
+ratio_fc: 0.8
+ratio_sc: 0.2
+reduce: mean
+reduce_fuse: mean
+split_args:
+  test_size: 0.2
+  train_size: 0.6
+  valid_size: 0.2
+use_wandb: true
+wd: 0.01

@@ -1,0 +1,21 @@
+attn_weight: true
+dropout: 0.5
+epochs: 2000
+file_option: _miss_graph
+fuse_method: SAGE
+fuse_on: node_embed
+hid_dim: 128
+knn_on: graph_embed
+lr: 0.001
+model_name: MewFuseGraph
+nlayers: 2
+patience: 5
+reduce: mean
+shared: false
+split_args:
+    test_size: 0.2
+    train_size: 0.6
+    valid_size: 0.2
+supp_k: 5
+use_wandb: true
+wd: 0.01

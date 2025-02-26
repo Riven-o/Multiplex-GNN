@@ -1,0 +1,16 @@
+dropout: 0.5
+epochs: 2000
+hid_dim: 64
+lr: 0.01
+modality: sc
+model_name: GAT
+nlayers: 3
+patience: 5
+ratio: 0.2
+reduce: mean
+split_args:
+  test_size: 0.2
+  train_size: 0.6
+  valid_size: 0.2
+use_wandb: true
+wd: 0.01

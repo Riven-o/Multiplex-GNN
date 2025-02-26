@@ -1,0 +1,19 @@
+# GCN, test more training epochs, patience -> -1
+lr: 0.01
+wd: 0.01
+ratio: 0.2
+epochs: 2000
+reduce: mean
+dropout: 0.5
+hid_dim: 128
+nlayers: 3
+modality: sc
+patience: -1
+ratio_fc: 0.5
+ratio_sc: 0.1
+use_wandb: true
+model_name: GCN
+split_args:
+  test_size: 0.2
+  train_size: 0.6
+  valid_size: 0.2

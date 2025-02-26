@@ -1,0 +1,23 @@
+attn_weight: true
+dropout: 0.5
+epochs: 2000
+file_option: _miss_graph_miss_label
+fuse_method: GAT
+fuse_on: node_embed
+fusion_only_on_null: true
+hid_dim: 64
+knn_on: graph_embed
+label_prop: false
+lr: 0.001
+model_name: MewFuseGraph
+nlayers: 2
+patience: 5
+reduce: mean
+shared: true
+split_args:
+    test_size: 0.2
+    train_size: 0.6
+    valid_size: 0.2
+supp_k: 2
+use_wandb: true
+wd: 0.01

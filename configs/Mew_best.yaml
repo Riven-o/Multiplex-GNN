@@ -1,0 +1,16 @@
+attn_weight: false
+dropout: 0.1
+epochs: 2000
+hid_dim: 256
+lr: 0.001
+model_name: Mew
+nlayers: 3
+patience: 5
+reduce: mean
+shared: false
+split_args:
+  test_size: 0.2
+  train_size: 0.6
+  valid_size: 0.2
+use_wandb: true
+wd: 0.01
